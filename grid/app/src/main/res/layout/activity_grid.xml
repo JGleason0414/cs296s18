@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="2">
+
+    <Button
+        android:onClick="onClick"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Button 1,1"/>
+
+    <Button
+        android:onClick="onClick"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Button 1,2"/>
+
+    <Button
+        android:onClick="onClick"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Button 2,1"/>
+
+    <Button
+        android:onClick="onClick"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Button 2,2"/>
+
+    <Button
+        android:onClick="onClick"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Button 3,1"/>
+
+    <Button
+        android:onClick="onClick"
+        android:text="Button 3,2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:id="@+id/xyz"/>
+
+</GridLayout>
