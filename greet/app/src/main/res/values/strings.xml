@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Greet</string>
+    <string name="nameHint">Name</string>
+    <string name="btnOkLabel">OK</string>
+</resources>
