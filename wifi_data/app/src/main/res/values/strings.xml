@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WiFiData</string>
+    <string name="labelWiFi">WiFi ON?</string>
+    <string name="true_or_false">true or false</string>
+    <string name="labelSSID">SSID</string>
+    <string name="ssid">SSID</string>
+    <string name="labelRSSI">Signal Strength</string>
+    <string name="labelFrequency">Radio Frequency</string>
+    <string name="labelMac">MAC</string>
+    <string name="labelIP">IP</string>
+    <string name="labelSpeed">Link Speed</string>
+</resources>

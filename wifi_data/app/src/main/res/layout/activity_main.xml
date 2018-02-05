@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="7"
+        android:columnCount="2">
+
+        <!-- WiFi ON/OFF -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelWiFi"
+            android:gravity="right"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/true_or_false"
+            android:id="@+id/txfWiFi"
+            android:layout_columnWeight="2"/>
+
+
+        <!-- SSID -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelSSID"
+            android:gravity="right"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txfSSID"
+            android:layout_columnWeight="2"/>
+
+        <!-- RSSI -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelRSSI"
+            android:gravity="right"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txfRSSI"
+            android:layout_columnWeight="2"/>
+
+        <!-- frequency -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelFrequency"
+            android:gravity="right"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txfFreq"
+            android:layout_columnWeight="2"/>
+
+        <!-- speed -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelSpeed"
+            android:gravity="right"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txfSpeed"
+            android:layout_columnWeight="2"/>
+
+        <!-- MAC -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelMac"
+            android:gravity="right"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txfMac"
+            android:layout_columnWeight="2"/>
+
+        <!-- IP -->>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelIP"
+            android:gravity="right"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txfIP"
+            android:layout_columnWeight="2"/>
+
+    </GridLayout>
+</ScrollView>
