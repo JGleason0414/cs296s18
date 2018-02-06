@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         // grid layout
         GridLayout gridLayout = new GridLayout(this);
+
         gridLayout.setColumnCount(COLS);
         gridLayout.setRowCount(ROWS);
 
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < ROWS; i++)
             for (int j = 0; j < COLS; j++) {
                 final Button btn = new Button(this);
+                GridLayout.LayoutParams param = new GridLayout.LayoutParams(GridLayout.spec(GridLayout.UNDEFINED, 1f), GridLayout.spec(GridLayout.UNDEFINED, 1f));
+                btn.setLayoutParams(param);
                 btn.setText(i + "," + j);
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
