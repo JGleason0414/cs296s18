@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="1"
+    android:columnCount="2">
+
+    <!-- provider -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txvProvider"
+        android:layout_gravity="right"
+        android:layout_columnWeight="1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:id="@+id/edtProvider"
+        android:layout_columnWeight="2"
+        android:enabled="false"/>
+
+    <!-- longitude -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txvLongitude"
+        android:layout_gravity="right"
+        android:layout_columnWeight="1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:id="@+id/edtLongitude"
+        android:layout_columnWeight="2"
+        android:enabled="false"/>
+
+    <!-- latitude -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txvLatitude"
+        android:layout_gravity="right"
+        android:layout_columnWeight="1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:id="@+id/edtLatitude"
+        android:layout_columnWeight="2"
+        android:enabled="false"/>
+
+</GridLayout>
