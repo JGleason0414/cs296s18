@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">open_aq</string>
+    <string name="country">Choose country, such as US (empty lists all)</string>
+    <string name="button_go">Go!</string>
+</resources>
