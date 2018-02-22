@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">accel_read</string>
+    <string name="btn_start_stop">Start</string>
+    <string name="txvX">X</string>
+    <string name="txvY">Y</string>
+    <string name="txvZ">Z</string>
+</resources>

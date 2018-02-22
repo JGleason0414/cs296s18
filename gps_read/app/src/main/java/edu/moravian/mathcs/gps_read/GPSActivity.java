@@ -29,13 +29,13 @@ public class GPSActivity extends AppCompatActivity {
         LocationListener locationListener = new LocationListener() {
             public void onLocationChanged(Location location) {
                 // Called when a new location is found by the network location provider.
-                Log.d("Provider: ", location.getProvider());
+                //Log.d("Provider: ", location.getProvider());
                 edtProvider.setText(location.getProvider());
-                Log.d("GPS Info: ", location.toString());
+                //Log.d("GPS Info: ", location.toString());
                 edtLongitude.setText("" + location.getLongitude());
-                Log.d("Longitude", location.getLongitude() + "");
+                //Log.d("Longitude", location.getLongitude() + "");
                 edtLatitude.setText("" + location.getLatitude());
-                Log.d("Longitude", location.getLatitude() + "");
+                //Log.d("Longitude", location.getLatitude() + "");
             }
 
             public void onStatusChanged(String provider, int status, Bundle extras) {
