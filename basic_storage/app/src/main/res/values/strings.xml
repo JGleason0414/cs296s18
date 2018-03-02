@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">basic_storage</string>
+    <string name="txvContents">Contents of file:</string>
+    <string name="btnUpdate">Update</string>
+</resources>
