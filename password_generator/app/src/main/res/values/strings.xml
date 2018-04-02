@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name="passwordLengthLabel">Password Length:</string>
+    <string name="includeSymbolsLabel">Include Symbols?</string>
+    <string name="includeNumbersLabel">Include Numbers?</string>
+    <string name="includeLowercaseLabel">Include Lowercase Characters?</string>
+    <string name="includeUppercaseLabel">Include Uppercase Characters?</string>
+    <string name="generateButtonText">Generate</string>
+    <string name="newPasswordLabel">Your new password:</string>
+
+</resources>
