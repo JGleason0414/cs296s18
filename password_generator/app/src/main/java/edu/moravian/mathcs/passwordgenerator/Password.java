@@ -8,11 +8,19 @@ public class Password {
     private static String UPPERCASE = LOWERCASE.toUpperCase();
     private static String NUMBERS   = "0123456789";
     private static String SYMBOLS   = "@#$%";
+    private static int    MIN_PASSWORD_LENGTH = 4;
+    private static int    MAX_PASSWORD_LENGTH = 16;
 
     static String generate(int length, boolean includeSymbols, boolean includeNumbers, boolean includeLowercase, boolean includeUppercase) {
+        if (length < MIN_PASSWORD_LENGTH)
+            length = MIN_PASSWORD_LENGTH;
+        else if (length > MAX_PASSWORD_LENGTH)
+            length = MAX_PASSWORD_LENGTH;
         String password = "";
         String symbols = "";
         Random r = new Random();
+        if (!includeSymbols && !includeNumbers && !includeLowercase && !includeUppercase)
+            includeLowercase = true;
         if (includeSymbols) {
             password += SYMBOLS.charAt(r.nextInt(SYMBOLS.length()));
             symbols += SYMBOLS;
