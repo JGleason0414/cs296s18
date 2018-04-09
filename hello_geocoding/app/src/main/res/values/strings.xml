@@ -2,5 +2,7 @@
     <string name="app_name">Hello Geocoding</string>
     <string name="locationLabel">Location:</string>
     <string name="mapButtonText">Map it!</string>
+    <string name="geocoding_api_key">AIzaSyAloWdFARwpD4lTzNu4SctE9udNqMaizhg</string>
+    <string name="google_maps_key">AIzaSyC2fZMlgAMtaL_C-4tFMPMROl-xUNKoODs</string>
     <string name="locationHint">Enter a location</string>
 </resources>
